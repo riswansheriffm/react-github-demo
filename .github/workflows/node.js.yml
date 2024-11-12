@@ -12,8 +12,10 @@ on:
 jobs:
 
   deploy:
-      permissions:
-        contents: write
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
   build:
 
     runs-on: ubuntu-latest
